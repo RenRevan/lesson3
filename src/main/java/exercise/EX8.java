@@ -1,13 +1,14 @@
 package exercise;
+import java.util.ArrayList;
 
 public class EX8 {
 
     //"8*. Write a program which prints ""Hello world"" to the console using methods transformIntToChar and printList only.
-    public class Main {
+
 
         public static void main(String[] args) {
             // write your code here
-            int[] ch = {72, 2};
+            int[] ch = {72, 101, 108,108,111,127,119,111,114,108,100};
             ArrayList<Character> chlist = transformIntToChar(ch);
             printList(chlist);
         }
@@ -27,5 +28,5 @@ public class EX8 {
         }
 
 
-    }
+
 }
